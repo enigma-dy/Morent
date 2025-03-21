@@ -1,0 +1,18 @@
+@MoRent_V2_HostAddress = http://localhost:5120
+
+POST {{MoRent_V2_HostAddress}}/api/auth/register
+Content-Type: application/json
+
+{
+  "email": "test@example.com",
+  "password": "Password123!"
+}
+
+###
+POST {{MoRent_V2_HostAddress}}/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "test@example.com",
+  "password": "Password123!"
+}
