@@ -1,0 +1,40 @@
+# Ignore build and development files
+**/bin/
+**/obj/
+**/.vs/
+**/.vscode/
+**/.idea/
+**/.git/
+**/.gitignore
+**/.dockerignore
+
+# Ignore local development files
+**/appsettings.Development.json
+**/launchSettings.json
+
+# Ignore user-specific files
+**/*.user
+**/*.suo
+**/*.userprefs
+
+# Ignore test projects
+**/*Tests/
+**/TestResults/
+
+# Ignore NuGet packages
+**/packages/
+**/*.nupkg
+
+# Ignore Node.js/npm files (if applicable)
+**/node_modules/
+**/npm-debug.log
+
+# Ignore IDE temp files
+**/*.swp
+**/*.swo
+**/*~
+**/Thumbs.db
+
+# Ignore Docker compose files (optional)
+# docker-compose.*.yml
+# **/docker-compose/
